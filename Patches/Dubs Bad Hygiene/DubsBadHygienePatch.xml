@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<!-- Dubs Bad Hygiene -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<!-- Update Job Type -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DBHAdministerFluids"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="washPatient"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DocCleanBedpan"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+		<!-- Update Priority -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DBHAdministerFluids"]/priorityInType</xpath>
+				<value>
+					<priorityInType>41</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="washPatient"]/priorityInType</xpath>
+				<value>
+					<priorityInType>12</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DocCleanBedpan"]/priorityInType</xpath>
+				<value>
+					<priorityInType>11</priorityInType>
+				</value>
+			</li>		
+		</operations>
+	</Operation>
+</Patch>
+

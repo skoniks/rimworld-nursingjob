@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Nursing -->
+	<WorkTypeDef>
+		<defName>Nursing</defName>
+		<labelShort>Nurse</labelShort>
+		<pawnLabel>Nurse</pawnLabel>
+		<gerundLabel>Nursing</gerundLabel>
+		<description>Handles medical tasks unaffected by medical level.</description>
+		<verb>Care for</verb>
+		<naturalPriority>1185</naturalPriority>
+		<alwaysStartActive>true</alwaysStartActive>
+		<workTags>
+			<li>Caring</li>
+		</workTags>
+	</WorkTypeDef>
+</Defs>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<!-- Base Game -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<!-- Update Job Type -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorRescue"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorFeedHumanlikes"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorFeedAnimals"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="TakeToBedToOperate"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="VisitSickPawn"]/workType</xpath>
+				<value>
+					<workType>Nursing</workType>
+				</value>
+			</li>
+		<!-- Update Priority -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorRescue"]/priorityInType</xpath>
+				<value>
+					<priorityInType>50</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorFeedHumanlikes"]/priorityInType</xpath>
+				<value>
+					<priorityInType>40</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="DoctorFeedAnimals"]/priorityInType</xpath>
+				<value>
+					<priorityInType>30</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="TakeToBedToOperate"]/priorityInType</xpath>
+				<value>
+					<priorityInType>20</priorityInType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName="VisitSickPawn"]/priorityInType</xpath>
+				<value>
+					<priorityInType>10</priorityInType>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Nurse Job</name>
+	<author>Darth_Sergeant</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>DarthSergeant.NurseJob</packageId>		
+	<description>
+Creates a nursing job to handle doctor duties non-dependent on the medicine skill. Also slightly reorders task, such as prioritizing rescuing someone over feeding them.  
+
+Mod can be added into an existing save game without problem.
+	</description>
+</ModMetaData>
