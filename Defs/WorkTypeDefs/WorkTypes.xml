@@ -4,11 +4,11 @@
 	<!-- Nursing -->
 	<WorkTypeDef>
 		<defName>Nursing</defName>
-		<labelShort>Nurse</labelShort>
-		<pawnLabel>Nurse</pawnLabel>
-		<gerundLabel>Nursing</gerundLabel>
-		<description>Handles medical tasks unaffected by medical level.</description>
-		<verb>Care for</verb>
+		<labelShort>Уход</labelShort>
+		<pawnLabel>Медсестра</pawnLabel>
+		<gerundLabel>Ухаживает</gerundLabel>
+		<description>Медсестры выполняют медицинские поручения, не зависящие от уровня навыков.</description>
+		<verb>Ухаживать за</verb>
 		<naturalPriority>1185</naturalPriority>
 		<alwaysStartActive>true</alwaysStartActive>
 		<workTags>

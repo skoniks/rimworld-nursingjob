@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Nurse Job</name>
-	<author>Darth_Sergeant</author>
+	<name>[RU] Nurse Job</name>
+	<author>skoniks</author>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
-	<packageId>DarthSergeant.NurseJob</packageId>		
+	<packageId>skoniks.NurseJob</packageId>
 	<description>
-Creates a nursing job to handle doctor duties non-dependent on the medicine skill. Also slightly reorders task, such as prioritizing rescuing someone over feeding them.  
+Создает должность медсестры для выполнения обязанностей врача, не зависящих от медицинских навыков. Также слегка изменяет порядок выполнения задач, например.
 
-Mod can be added into an existing save game without problem.
+Мод может быть добавлен в существующуу игру без проблем.
+
+Данный мод является переводом оригинального мода от DarthSergeant.
 	</description>
 </ModMetaData>
